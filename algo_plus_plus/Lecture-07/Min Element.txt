@@ -1,0 +1,21 @@
+
+
+    Read the First Element, Min = First Element
+
+    Read the ith Element
+        if Query Push
+            - If Current Element > Min
+                    Push Current Element
+            - Else
+                 Push 2*currrentElement - currentMin
+                 Min = currentElement
+
+        else if Query is for Pop
+            if Current Element > Min
+                    Directly Pop
+            else
+                Min = 2*CurrentMin - CurrentElement(S-top)
+                Pop the current element
+
+
+
