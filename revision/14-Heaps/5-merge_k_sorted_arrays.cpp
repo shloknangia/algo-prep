@@ -72,8 +72,8 @@ int main(){
     */
    // Brute force: add all into same array and sort it
    // complexity: K*N*log(K*N) [as total elements = K*N]
-   // more efficient using min heap of size K
 
+   // more efficient using min heap of size K
    // steps:
    // add first element of all k arrays
    // remove min
